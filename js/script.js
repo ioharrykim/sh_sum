@@ -37,9 +37,9 @@
         var dateVal = $("[name=ondate]").val();
         console.log(dateVal);
         $('div.apilogin > a').attr('href', 'http://shf.nebi.co.kr/s/stat.php?date=2021-'+dateVal+'');
-        $('div.apilogin > a').text('http://shf.nebi.co.kr/s/stat.php?date=2021-'+dateVal+'');
+        $('div.apilogin > a').text(dateVal+' 로그인 기록');
         $('div.apibanner > a').attr('href', 'http://shf.nebi.co.kr/s/banner.php?date=2021-'+dateVal+'');
-        $('div.apibanner > a').text('http://shf.nebi.co.kr/s/banner.php?date=2021-'+dateVal+'');
+        $('div.apibanner > a').text(dateVal+' 배너 클릭 기록');
     }
 
     loginBtn.click(function () {
