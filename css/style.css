@@ -49,6 +49,7 @@ html {
     color: #fff;
     font-weight: 700;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 .loginbutton button, .bannerbutton-wrap button {
     height: 27px;
@@ -60,6 +61,7 @@ html {
     color: #fff;
     font-weight: 700;
     font-size: 0.8rem;
+    cursor: pointer;
 }
 .anssection {
     display: flex;
